@@ -1,0 +1,41 @@
+/* Register form  CSS */
+.form-container {
+  /* margin-top: 60px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%);
+}
+.form-container form {
+  border-radius: 10px;
+  background-color: white;
+  padding: 20px;
+}
+.form-container form .title {
+  letter-spacing: 1px;
+  color: steelblue;
+  margin-bottom: 15px;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.form-container form input {
+  /* color: #178783; */
+  border: none;
+  border-bottom: 1px solid black;
+  border-radius: 0;
+}
+.form-container form button {
+  text-transform: uppercase;
+  width: 250px;
+  border: 1px solid black;
+  background-color: #000;
+  color: white;
+}
+.form-container form button:hover {
+  background: #000;
+  border: 1px solid black;
+  background: linear-gradient(to right, #434343, #000000);
+}
